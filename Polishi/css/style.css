@@ -1,0 +1,115 @@
+body{margin: 0; padding: 0; font-family: "B Mitra";}
+.top-nav{text-align: center; border-bottom: 1px solid #ccc; position: relative; z-index: 1;}
+#logo{margin-top: 5px;}
+.top-nav ul{margin-bottom: 0!important;}
+.top-nav ul li{padding: 15px 8px; list-style-type: none;}
+.top-nav ul li:hover{background-color: #f2f2f2; cursor: pointer;}
+.top-nav ul li a{color: #6c757d; font-size: 18px; text-decoration: none;}
+.top-nav ul li a i{color: #333!important; font-size: 16px; float: left; padding-top: 5px; text-align: left;}
+.top-nav ul li i{color: #0795e6; font-size: 18px; padding-left: 5px;}
+.shop-back{display: none; visibility: hidden; background-color: #fff; width: 15%; height: auto; padding: 10px; box-shadow: 2px 2px 2px 2px #ccc; float: right; margin-top: 10px;}
+.shop-back b{font-family: "B Mitra"; font-size: 16px; text-align: right;}
+#shopping-cart:hover .shop-back{visibility: visible; display: block; position: absolute; z-index: 2;}
+.mid-nav{margin-top: 20px; padding-bottom: 15px; border-bottom: 1px solid #ccc;}
+.new-dull-back, .gift-back{text-align: center; padding-top: 5px;}
+#new-dull, #gift{background-color: #f2f2f2; border-radius: 20px; color: #000; font-size: 18px; padding: 8px 12px; text-decoration: none; text-align: center;}
+#new-dull i, #gift i{padding-left: 5px;}
+.search-back button{color: #333; background-color: #f2f2f2; padding: 12px; border: none;}
+.search-back #search-box{background-color: #f2f2f2; color: #000; font-size: 18px; border: none; padding: 5px; margin-right: 0!important;}
+@media (min-width: 768px) {
+    .min-menu, .navbar .d-flex {
+        display: none;
+        visibility: hidden;
+    }
+}
+@media (max-width: 768px) {
+    .navbar{border-bottom: 1px solid #ccc; position: relative;}
+}
+.navbar-brand{text-align: center;}
+.min-menu a .fa-user{font-size: 30px!important; margin-top: 5px;}
+.navbar-nav .nav-item .nav-link{font-size: 18px; color: #6c757d;}
+.navbar-nav .nav-item .nav-link:hover{color: #000; border-bottom: 2px solid #0795e6; transition: 0.2s ease all;}
+#animals{display: none; visibility: hidden; background-color: #fff; padding: 2px; opacity: 90%; position: absolute;}
+#animals li{display: block; text-align: right; list-style-type: none; padding: 5px;}
+#animals li a{color: #6c757d; text-decoration: none; font-size: 18px; padding: 5px;}
+#animals li a:hover{color: #000;}
+#animals-dulls:hover #animals{display: block; visibility: visible;}
+#dulls{background-image: url("https://www.polishi.com/Themes/Polishi/Content/images/homepage-topic.jpg"); background-size: cover; margin-bottom: 100px;}
+#dulls h1{font-family: b Titr;}
+#dulls .tittles{color: #000; text-align: center; background-color: #fff; opacity: 80%;}
+#dulls p{font-family: "B Mitra"; font-size: 18px;}
+#dulls .tittles a{color: #000; font-family: "B Mitra"; font-size: 18px; text-decoration: none; margin-top: 10px; border-bottom: 1px solid #000; padding-bottom: 5px;}
+#dulls .tittles a:hover{cursor: pointer;}
+@media (max-width: 768px) {
+    #dulls{padding-top: 110px}
+    #dulls p{padding: 10px}
+}
+@media (min-width: 768px) {
+    #dulls{padding-top: 350px}
+    #dulls p{padding: 20px}
+}
+.media li{list-style-type: none; padding: 15px;}
+.media-back{border: 1px solid #ccc; padding-top: 10px; padding-bottom: 10px; height: 100px;}
+.media-back h2{font-family: "B Titr"; color: #0795e6; font-size: 22px;}
+.media-back p{color: #000; font-size: 18px; font-family: "B Mitra";}
+.media-back i{color: #0795e6; font-size: 36px; padding: 20px 10px;}
+.dulls-category li{list-style-type: none;}
+.dulls-category h3{color: #fff; font-family: "B Titr"; padding: 20px; width: 90%; height: 440px; margin-right: auto; margin-left: auto;}
+.dulls-category #dull-c-back-boys:hover h3{border: 1px solid #fff; transition: 0.5s ease all;}
+.dulls-category #dull-c-back-girls:hover h3{border: 1px solid #fff; transition: 0.5s ease all;}
+.dulls-category #dull-c-back-babis:hover h3{border: 1px solid #fff; transition: 0.5s ease all;}
+#dull-c-back-girls{background-image: url("https://www.polishi.com/content/images/thumbs/0001521_-_500_1.jpeg"); height: 500px; padding-top: 30px; margin: 5px 0;}
+#dull-c-back-babis{background-image: url("https://www.polishi.com/content/images/thumbs/0001522_-_500_1.jpeg"); height: 500px; padding-top: 30px; margin: 5px 0;}
+#dull-c-back-boys{background-image: url("https://www.polishi.com/content/images/thumbs/0001520_-_500_1.jpeg"); height: 500px; padding-top: 30px; margin: 5px 0;}
+video{border-radius: 180px;}
+.product{float: right; height: auto; margin-top: 30px; position: relative; height: auto; margin-bottom: 100px;}
+.product .products-li{list-style-type: none; margin: 30px 0;}
+.product .products-li:hover .product-retail{display: block; visibility: visible; transition: 0.2s ease all;}
+.product-retail{margin-top: -40px; position: absolute; background-color: #fff; opacity: 60%; margin-left: 5%; margin-right: 5%; text-align: center; padding: 10px 5px; display: none; visibility: hidden;}
+.product .product-retail ul li{list-style-type: none;}
+.product .product-retail ul li a .fa-arrow-left{float: left;}
+.product .product-retail ul li a .fa-shopping-bag{border-left: 1px solid #000; padding-left: 5px; text-align: center;}
+.product .product-retail ul li a .fa-heart{border-left: 1px solid #000; padding-left: 5px; float: right;}
+.product .product-retail ul li a .fa-heart, .product-retail ul li a .fa-shopping-bag, .product-retail ul li a .fa-arrow-left{color: #000; font-size: 18px;}
+.product-retail h3{text-align: center; font-family: "B Titr";}
+.product-retail h3 a{margin-top: 10px; color: #000; font-size: 18px; text-align: center; text-decoration: none;}
+.product-retail h3 a:hover{text-decoration: underline;}
+.product-retail p{text-align: center; font-size: 16px; color: #000; font-family: "B Mitra";}
+.mid-images a img{border-radius: 90px; margin: 10px 0;}
+#carouselExampleFade{margin-top: 50px;}
+.carousel-control-prev, .carousel-control-next{background-color: transparent; border: none;}
+#footer{border-top: 1px solid #6c757d; margin-top: 50px; padding: 30px 5px;}
+#footer h4{font-family: "B Titr"; font-size: 18px; text-align: right;}
+.footer-right{padding-left: 15px;}
+@media(min-width: 768px){
+    .footer-right{border-left: 1px solid #6c757d;}
+    .account, .service{padding-right: 50px;}
+}
+.social-media{padding-right: 0!important; margin-top: 20px;}
+.social-media li{background-color: #0795e6; padding: 5px 5px 2px 5px; border-radius: 5px; margin-left: 5px; list-style-type: none;}
+.social-media li:hover{background-color: #002453;}
+.social-media li a span{color: #fff; font-size: 18px;}
+#footer p{color: #333; font-size: 18px; margin-top: 20px;}
+.btn-primary{border-radius: 20px 0 0 20px!important;}
+.btn-primary:hover{background-color: #414149; border: 0;}
+#subscribe-back, #unsubscribe-back{padding-left: 20px;}
+#subscribe-back label, #unsubscribe-back label{font-size: 18px;}
+@media (max-width: 768px){
+    .account, .service{margin-top: 20px;}
+    .end-footer a img{margin-top: 100px; width: 50% !important; margin-right: 25%; margin-left: 25%; height: 70px!important;}
+}
+.account h5 , .service h5{font-family: "B Mitra"; font-size: 24px;}
+.account h5 span, .service h5 span{padding-left: 5px;}
+.account ul, .service ul{padding-right: 0!important;}
+.account ul li, .service ul li{list-style-type: none; font-family: "B Mitra";}
+.account ul li a, .service ul li a{font-size: 18px; text-decoration: none; color: #000;}
+.account ul li a:hover, .service ul li a:hover{text-decoration: underline; color: #0795e6;}
+.end-footer ul li{font-family: "B Mitra"; font-size: 16px; color: #6c757d; list-style-type: none; height: 20px; margin-top: 20px; padding: 0 15px;}
+.end-footer ul li a{color: #6c757d; text-decoration: none;}
+.end-footer ul li:nth-child(1){border-left: 1px solid #6c757d;}
+.end-footer ul li:nth-child(2){border-left: 1px solid #6c757d;}
+.end-footer ul li:nth-child(3){border-left: 1px solid #6c757d;}
+.end-footer ul li:nth-child(4){border-left: 1px solid #6c757d;}
+.end-footer ul li:nth-child(5){border-left: 1px solid #6c757d;}
+.end-footer ul li a:hover{color: #0795e6;}
+.end-footer a img{width: 100%; height: 60px;}
